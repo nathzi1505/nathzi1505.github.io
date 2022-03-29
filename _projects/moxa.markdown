@@ -76,12 +76,4 @@ Even though detection on faces which occupy a good portion of the image are is r
 </div>
 
 Using YOLOv4, we were able to achieve around 30 FPS on Full HD footage.
-Along with extensive documentation, the final product delivered was containerized for easy deployment. The docker code used for YOLOv4 deployment can be found in the following public GitHub repository.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-5 mt-3">
-        <a href="https://github.com/nathzi1505/yolov4-darknet-docker" target="_blank">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/moxa/moxa-3.jpg' | relative_url }}" alt="" title=""/>
-        </a>
-    </div>
-</div>
+Along with extensive documentation, the final product delivered was containerized for easy deployment. The docker code used for YOLOv4 deployment can be found in this [GitHub repository](https://github.com/nathzi1505/yolov4-darknet-docker).
