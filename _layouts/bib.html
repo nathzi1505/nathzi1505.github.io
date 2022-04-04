@@ -75,7 +75,11 @@
       {% endif %}
       {% if entry.year %}
         {% if entry.journal != "Manuscript under review" %}
-          , {{entry.year}}
+          , {{entry.year}} , {{entry.volume}} 
+            {% if entry.number %}
+              ({{entry.number}}) 
+            {% endif %}
+          : pp. {{entry.pages}}
         {% endif %}
       {% endif %}
       </div>
