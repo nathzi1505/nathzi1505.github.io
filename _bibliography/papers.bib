@@ -29,7 +29,7 @@ using aerosol optical depth},
   abstract={Existence of several challenges and high cost in the development of monitoring infrastructure have become major reasons for data sparsity by statutory government agencies tasked to study pollution exposure in urban areas. To tackle this problem, the use of aerosol optical depth (AOD) data from various satellite based instruments coupled with the usage of learning algorithms have become popular in recent times. This paper presents a novel four-staged approach using different statistical, machine learning and deep learning methods to develop a spatio-temporal hybrid model for temporal forecasting using data from existing stations along with satellite aerosol optical depth data for spatial interpolation. Experiments conducted on real-world data belonging to the cities of Kolkata, Bengaluru and Mumbai show that a consistent pattern is not followed in all the cities in all stages except in spatial interpolation where Random Forest Regression is found to surpass all other models used. While an encoder-decoder architecture based long short term memory networks (LSTM Auto-Encoder) method when used for temporal forecasting in the hybrid method outperforms others in Mumbai, a Random Forest Regression based method and a multi-layer perceptron based method outperforms similarly in Kolkata and Bengaluru respectively.},
 }
 
-@article{saha2022improv,
+@article{Saha2022,
   author={Saha, Pratik
   and Nath, Pritthijit
   and Middya, Asif Iqbal
@@ -37,24 +37,24 @@ using aerosol optical depth},
   title={Improving temporal predictions through time-series labeling using matrix profile and motifs},
   journal={Neural Computing and Applications},
   year={2022},
-  month={Jan},
-  day={10},
+  month={Aug},
+  day={01},
+  volume={34},
+  number={16},
+  pages={13169-13185},
   abstract={One of the most challenging tasks in time-series prediction is a model's capability to accurately learn the repeating granular trends in the data's structure to generate effective predictions. Traditionally specially tuned statistical models and deep learning models like recurrent neural networks and long short-term memory networks are used to tackle such problem of sequence modeling. However in practice, factors like inadequate parameters in case of statistical models, random weight initializations, and data inadequacy in case of deep learning models affect the resulting final predictions. As a possible solution to these known problems, this paper introduces a novel method of time-series labeling (TSL) comprising a combination of encoding and decoding methodologies that not only takes into account the granular structure of a time-series data but also its underlying meta-learners for better predictive accuracy. To demonstrate the approach's effectiveness and capability of handling wide range of scenarios, comparisons are drawn first over different widely used statistical and deep learning models and then applying TSL to each of them in order to showcase the resulting performance improvement when implemented over a wide variety of real-world datasets. The experimental findings reflect an average of 25{\%} increase in overall performance when using TSL along with mostly similar performance of different combinations regardless of model complexity thereby proving its efficacy in predicting periodic data.},
   issn={1433-3058},
   doi={10.1007/s00521-021-06744-7},
-  url={https://doi.org/10.1007/s00521-021-06744-7},
-	html={https://link.springer.com/article/10.1007/s00521-021-06744-7},
-	bibtex_show={true}, 
-	pdf={saha2022improv.pdf},
-  pages={1-17},
-  volume={Online}
+  url={https://doi.org/10.1007/s00521-021-06744-7}
 }
+
+
 
 @article{nath2022empirical,
   title={Empirical assessment of transformer based neural network architecture in forecasting pollution trends - Bachelor's Project},
   author={Nath, Pritthijit and Middya, Asif Iqbal and Roy, Sarbani},
   journal={Manuscript under review},
-  year={Under Review},
+  year={Review},
   abstract={With rising pollution concerns in recent times, producing refined and accurate predictions as a part of United Nations Sustainable Development Goals 11 (Sustainable Cities and Communities) and 13 (Climate Action) have gained utmost importance. As new model architectures become available, it becomes difficult for an average policymaker to evaluate various models comprehensively. One such architecture is the Transformer neural network which has shown an exceptional rise in various areas such as natural language processing and computer vision. This paper explores the performance of such a Transformer based neural network (referred in the paper as PolTrans) in the domain of pollution forecasting. Experiments based on four univariate city pollution datasets (Delhi, Seoul, Skopje and Ulaanbaatar) and two multivariate datasets (Beijing PM2.5 and Beijing PM10) are performed against baselines consisting of widely used statistical, machine learning and deep learning methods. Findings show that although PolTrans performs comparatively better compared to existing deep learning methods such as BiDirectional long short-term memory networks (LSTM), LSTM AutoEncoder, etc. for modelling pollution in cities such as Beijing, Delhi and Ulaanbaatar, in the majority of cases, the PolTrans architecture lags behind statistical and machine learning methods such as AutoRegressive Integrated Moving Average ARIMA), Random Forest Regression, Standard Vector Regression (SVR), etc. by a range of 1.5 - 15 units in terms of Root Mean Square Error.},
 }
 
@@ -62,7 +62,7 @@ using aerosol optical depth},
   title={Spatio-temporal pollution forecasting using hybrid networks},
   author={Nath, Pritthijit and Saha, Pratik and Middya, Asif Iqbal and Roy, Sarbani},
   journal={Manuscript under review},
-  year={Under Review},
+  year={Review},
   abstract={Rising real estate prices along with expensive maintenance costs, and lack of spares during times of instrument failure have become major issues for statutory bodies when dealing with real-time pollution monitoring stations.  As a possible solution to these problems, a novel class of hybrid spatio-temporal pollution forecasting networks which are a combination of various widely used temporal forecasting methods and spatial interpolation methods have been proposed in this paper. In addition, a novel multi-site Multi Layer Perception based Ensemble method, capable of improving accuracy by taking exogenous variables into account, has also been proposed. Experimental results based on the multi-site air pollution data of Beijing demonstrate that the proposed class of hybrid networks have been effective in predicting the pollution of unknown locations with great levels of accuracy.  Moreover, the proposed novel MLP Ensemble method for spatial interpolation has also been empirically shown to perform equivalently in comparison to commonly used spatial interpolation methods.},
   url={https://www.researchsquare.com/article/rs-863931/v1},
 	html={https://www.researchsquare.com/article/rs-863931/v1},
@@ -73,6 +73,6 @@ using aerosol optical depth},
   title={Spatio-temporal analysis of COVID-19 effects on city air pollution in India},
   author={Nath, Pritthijit and Roy, Biparnak and Saha, Pratik and Middya, Asif Iqbal and Roy, Sarbani},
   journal={Manuscript under review},
-  year={Under Review},
+  year={Review},
   abstract={The imposition of strict restrictions by the Government of India to restrict the spread of the novel coronavirus has changed the socio-economic landscape like never before. The air quality due to such unprecedented events has undergone drastic changes especially in major metropolitan cities, which serve as important financial and industrial hubs of the country. This study investigates the influence lockdowns had on the pollution scenario of four key cities namely, Delhi, Kolkata, Chennai and Mumbai during both the first (2020) and the second (2021) waves . To evaluate the impact, detailed analysis of ground based pollutant concentration data of PM2.5, NOx, SO2 and O3 from various government set up monitoring stations in the period ranging from April’20 to June’21 is conducted along with the corresponding period during 2019 when business was as usual (BaU). Results show that although PM2.5 and NOx for all cities present a decrease during the first wave, the second wave exhibited higher pollutant levels during the second wave. For SO2 and O3 , the trend did not show any consistency over cities. In some cases, the second wave levels showed a significant increase with regard to their BaU counterparts. Out of all the meteorological factors studied over that period, relative humidity was found to have a strong correlation with respect to pollutant levels. Regarding spatial variation within cities, stations especially based in industrial areas showed a significant increase in the winter months of October’20 to January’21. However, second wave and first wave pollutant levels for different stations during the summer months for all cities except Chennai were found to be nearly identical.},
 }
