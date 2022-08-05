@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: page
 title: Projects
 permalink: /projects/
-description: Ideas that finally saw the light of the day
+description: Fun ideas that finally saw the light of the day
 nav: true
 display_categories: [Undergrad]
 horizontal: true
@@ -54,4 +54,4 @@ horizontal: true
 
   {% endif %}
 
-</div> -->
+</div>
