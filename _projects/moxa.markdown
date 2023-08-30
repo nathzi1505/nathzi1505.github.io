@@ -8,7 +8,7 @@ year: 2020
 category: Undergrad
 ---
 
-The COVID-19 pandemic has changed the way we socialize once and for all. Maintaining safety protocols have now become utmost concern wherever we go and with whoever we talk to. To reduce contact, the majority of the entire working class has moved to the safety of their homes. But whenever, one goes out, the imperturbable Face Mask has now become mandatory in our lives.
+The COVID-19 pandemic has changed the way we socialize once and for all. Maintaining safety protocols has now become of utmost concern wherever we go and with whoever we talk to. To reduce contact, the majority of the entire working class has moved to the safety of their homes. But whenever one goes out, the imperturbable Face Mask has now become mandatory in our lives.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3">
@@ -19,7 +19,7 @@ The COVID-19 pandemic has changed the way we socialize once and for all. Maintai
     Health workers visiting a locality to collect RT-PCR samples to gauge the infection spread in that residential area
 </div>
 
-To monitor whether safety protocols are maintained in different areas, local police agencies have to resort to installed CCTV camera footage in order to mark areas which need additional measures. Nowadays, these cameras are already endowed with computer vision functionalities through embedded systems and have been used in wide range of applications, most notably license plate detection.
+To monitor whether safety protocols are maintained in different areas, local police agencies have to resort to installed CCTV camera footage in order to mark areas that need additional measures. Nowadays, these cameras are already endowed with computer vision functionalities through embedded systems and have been used in a wide range of applications, most notably license plate detection.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3">
@@ -33,7 +33,7 @@ To monitor whether safety protocols are maintained in different areas, local pol
     Common use cases such as license plate detection and object detection
 </div>
 
-Similarly, face mask detection can be thought of as a special case of object detection. Although, detection can be done fairly accurately using different state-of-the-art object detection methods, the real time performance is the one that needs to be taken into considering as all practical use cases demand instant processing of results for rapid response measures.
+Similarly, face mask detection can be thought of as a special case of object detection. Although detection can be done fairly accurately using different state-of-the-art object detection methods, the real-time performance is the one that needs to be taken into consideration as all practical use cases demand instant processing of results for rapid response measures.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3">
@@ -58,7 +58,7 @@ For this project, we used [YOLOv4](https://arxiv.org/abs/2004.10934), one of the
     (Left) Original image and (Right) Output image with bounding boxes drawn on faces along with the predicted mask/nomask annotations
 </div>
 
-Even though detection on faces which occupy a good portion of the image are is relatively easy, long range detection is extremely tough and requires a specialized training dataset. By coordinating with an arrangement with Kolkata Police, a 2-3 CCTV feeds were taken for annotation purposes. The feed videos were broken into frames and around 10k frames were annotated by hand for model training purposes. The final trained model showed a considerable increase in performance for long range detection purposes where other models by other police agencies failed.
+Even though detection on faces which occupy a good portion of the image are is relatively easy, long range detection is extremely tough and requires a specialized training dataset. By coordinating with an arrangement with Kolkata Police, 2-3 CCTV feeds were taken for annotation purposes. The feed videos were broken into frames and around 10k frames were annotated by hand for model training purposes. The final trained model showed a considerable increase in performance for long range detection purposes where other models by other police agencies failed.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3">
